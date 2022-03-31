@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites time="228.952" tests="4" failures="0" errors="0">
+    <testsuite name="GraphWalker" tests="4" failures="0" errors="0" time="228.952" timestamp="2022-03-31T03:52:50">
+        <properties>
+            <property name="classworlds.conf" value="/opt/homebrew/Cellar/maven/3.8.1/libexec/bin/m2.conf"/>
+            <property name="env.COMMAND_MODE" value="unix2003"/>
+            <property name="env.HOME" value="/Users/emre"/>
+            <property name="env.HOMEBREW_CELLAR" value="/opt/homebrew/Cellar"/>
+            <property name="env.HOMEBREW_PREFIX" value="/opt/homebrew"/>
+            <property name="env.HOMEBREW_REPOSITORY" value="/opt/homebrew"/>
+            <property name="env.INFOPATH" value="/opt/homebrew/share/info:"/>
+            <property name="env.JAVA_HOME" value="/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home"/>
+            <property name="env.JAVA_MAIN_CLASS_44361" value="org.codehaus.plexus.classworlds.launcher.Launcher"/>
+            <property name="env.LC_CTYPE" value="en_US.UTF-8"/>
+            <property name="env.LOGIN_SHELL" value="1"/>
+            <property name="env.LOGNAME" value="emre"/>
+            <property name="env.MANPATH" value="/opt/homebrew/share/man::"/>
+            <property name="env.MAVEN_CMD_LINE_ARGS" value=" graphwalker:test -X"/>
+            <property name="env.MAVEN_PROJECTBASEDIR" value="/Users/emre/Desktop/SWE/SWE550 Software Quality Assurance &amp; Reliability/Assignment 2/TestingWithGraphWalker/testingWithGraphWalker"/>
+            <property name="env.OLDPWD" value="/Users/emre/Desktop/SWE/SWE550 Software Quality Assurance &amp; Reliability/Assignment 2/TestingWithGraphWalker/testingWithGraphWalker"/>
+            <property name="env.PATH" value="/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/emre/bin"/>
+            <property name="env.PWD" value="/Users/emre/Desktop/SWE/SWE550 Software Quality Assurance &amp; Reliability/Assignment 2/TestingWithGraphWalker/testingWithGraphWalker"/>
+            <property name="env.SHELL" value="/bin/zsh"/>
+            <property name="env.SHLVL" value="1"/>
+            <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.xmY1jsZIqm/Listeners"/>
+            <property name="env.TERM" value="xterm-256color"/>
+            <property name="env.TERMINAL_EMULATOR" value="JetBrains-JediTerm"/>
+            <property name="env.TERM_SESSION_ID" value="bf936853-de7e-4860-949a-bce1cfa7bf9c"/>
+            <property name="env.TMPDIR" value="/var/folders/mw/3m6_nbm959nby69ypc2120ym0000gn/T/"/>
+            <property name="env.USER" value="emre"/>
+            <property name="env.XPC_FLAGS" value="0x0"/>
+            <property name="env.XPC_SERVICE_NAME" value="0"/>
+            <property name="env.__CFBundleIdentifier" value="com.jetbrains.intellij.ce"/>
+            <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+            <property name="env.__INTELLIJ_COMMAND_HISTFILE__" value="/Users/emre/Library/Caches/JetBrains/IdeaIC2021.2/terminal/history/testingWithGraphWalker-history"/>
+            <property name="file.encoding" value="UTF-8"/>
+            <property name="file.separator" value="/"/>
+            <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+            <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+            <property name="java.class.path" value="/opt/homebrew/Cellar/maven/3.8.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+            <property name="java.class.version" value="61.0"/>
+            <property name="java.home" value="/opt/homebrew/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home"/>
+            <property name="java.io.tmpdir" value="/var/folders/mw/3m6_nbm959nby69ypc2120ym0000gn/T/"/>
+            <property name="java.library.path" value="/Users/emre/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+            <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+            <property name="java.runtime.version" value="17+0"/>
+            <property name="java.specification.name" value="Java Platform API Specification"/>
+            <property name="java.specification.vendor" value="Oracle Corporation"/>
+            <property name="java.specification.version" value="17"/>
+            <property name="java.vendor" value="Homebrew"/>
+            <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+            <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+            <property name="java.vendor.version" value="Homebrew"/>
+            <property name="java.version" value="17"/>
+            <property name="java.version.date" value="2021-09-14"/>
+            <property name="java.vm.compressedOopsMode" value="Zero based"/>
+            <property name="java.vm.info" value="mixed mode"/>
+            <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+            <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+            <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+            <property name="java.vm.specification.version" value="17"/>
+            <property name="java.vm.vendor" value="Homebrew"/>
+            <property name="java.vm.version" value="17+0"/>
+            <property name="jdk.debug" value="release"/>
+            <property name="library.jansi.path" value="/opt/homebrew/Cellar/maven/3.8.1/libexec/lib/jansi-native"/>
+            <property name="line.separator" value="&#10;"/>
+            <property name="maven.build.version" value="Apache Maven 3.8.1 (05c21c65bdfed0f71a2f2ada8b84da59348c4c5d)"/>
+            <property name="maven.conf" value="/opt/homebrew/Cellar/maven/3.8.1/libexec/conf"/>
+            <property name="maven.home" value="/opt/homebrew/Cellar/maven/3.8.1/libexec"/>
+            <property name="maven.multiModuleProjectDirectory" value="/Users/emre/Desktop/SWE/SWE550 Software Quality Assurance &amp; Reliability/Assignment 2/TestingWithGraphWalker/testingWithGraphWalker"/>
+            <property name="maven.version" value="3.8.1"/>
+            <property name="native.encoding" value="UTF-8"/>
+            <property name="os.arch" value="aarch64"/>
+            <property name="os.name" value="Mac OS X"/>
+            <property name="os.version" value="11.5.2"/>
+            <property name="path.separator" value=":"/>
+            <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+            <property name="sun.arch.data.model" value="64"/>
+            <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+            <property name="sun.cpu.endian" value="little"/>
+            <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+            <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher graphwalker:test -X"/>
+            <property name="sun.java.launcher" value="SUN_STANDARD"/>
+            <property name="sun.jnu.encoding" value="UTF-8"/>
+            <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+            <property name="sun.stderr.encoding" value="UTF-8"/>
+            <property name="sun.stdout.encoding" value="UTF-8"/>
+            <property name="user.country" value="TR"/>
+            <property name="user.dir" value="/Users/emre/Desktop/SWE/SWE550 Software Quality Assurance &amp; Reliability/Assignment 2/TestingWithGraphWalker/testingWithGraphWalker"/>
+            <property name="user.home" value="/Users/emre"/>
+            <property name="user.language" value="en"/>
+            <property name="user.name" value="emre"/>
+        </properties>
+        <testcase name="YoutubeTest2" time="57.238" classname="com.company.YoutubeTest2"/>
+        <testcase name="YoutubeTest1" time="57.238" classname="com.company.YoutubeTest1"/>
+        <testcase name="YoutubeTest4" time="57.238" classname="com.company.YoutubeTest4"/>
+        <testcase name="YoutubeTest3" time="57.238" classname="com.company.YoutubeTest3"/>
+    </testsuite>
+</testsuites>
